@@ -1,6 +1,6 @@
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** Command: kcg66.exe -config D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/config.txt
-** Generation date: 2018-10-10T00:49:39
+** Generation date: 2018-10-10T01:19:21
 *************************************************************$ */
 #ifndef _LandingGear_H_
 #define _LandingGear_H_
@@ -144,6 +144,6 @@ extern void LandingGear_init(outC_LandingGear *outC);
 #endif /* _LandingGear_H_ */
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** LandingGear.h
-** Generation date: 2018-10-10T00:49:39
+** Generation date: 2018-10-10T01:19:21
 *************************************************************$ */
 
