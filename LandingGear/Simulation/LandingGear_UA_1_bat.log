@@ -1,6 +1,6 @@
 
 C:\Users\ricardo\SCADE>"C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/bin/uaadaptor.exe" -sdy "D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\LandingGear.sdy" -n "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml" -outdir "D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation" -k "D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_trace.xml" -o "LandingGear_UA_1" -i "LandingGear_interface.h"  -encoding "ASCII"  "D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\LG.sgfx" 
-I0001: SCADE Suite UA Adaptor Version 19.2 (build 20180628) (c) Esterel Technologies SAS 2012-2018 started at 2018-10-09T11:58:12.
+I0001: SCADE Suite UA Adaptor Version 19.2 (build 20180628) (c) Esterel Technologies SAS 2012-2018 started at 2018-10-10T00:49:42.
 I0005: Command line: "C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/bin/uaadaptor.exe" -sdy D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\LandingGear.sdy -n "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml" -outdir D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation -k D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_trace.xml -o LandingGear_UA_1 -i LandingGear_interface.h -encoding ASCII D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\LG.sgfx
 I0006: Generated file: <log> : D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.log
 I0007: Input file: C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml
@@ -146,7 +146,7 @@ I0006: Generated file: <.h> : D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Si
 I0006: Generated file: <.h> : D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.h
 I0808: [SUCCESSFUL]
 I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.log
-I0002: SCADE Suite UA Adaptor finished with 0 error(s) at 2018-10-09T11:58:19.
+I0002: SCADE Suite UA Adaptor finished with 0 error(s) at 2018-10-10T00:49:49.
 O sistema n∆o pode encontrar o arquivo especificado.
 
 C:\Users\ricardo\SCADE>"C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\bin\ScadeDisplayConsole.exe" batch generate "D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\landing_gear.etp" -conf "DF Generation" -source "LG.sgfx" -outdir "D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation" -prefix "LandingGear_UA_1" 
@@ -155,7 +155,7 @@ Setting SCADEDISPLAY_HOME to C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display
 
 Generating DF...
 "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\DFGEN67\bin\dfgen.exe" -n "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation -o LandingGear_UA_1 D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\LG.sgfx
-I0001: SCADE UA DF Generator Version 6.7 (build i2) (c) Esterel Technologies SAS 2011-2016 started at 2018-10-09T11:58:58.
+I0001: SCADE UA DF Generator Version 6.7 (build i2) (c) Esterel Technologies SAS 2011-2016 started at 2018-10-10T00:50:17.
 I0005: Command line: "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\DFGEN67\bin\dfgen.exe" -n "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation -o LandingGear_UA_1 D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\LG.sgfx
 I0007: Input file: C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml
 I0007: Input file: C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\const.xml
@@ -285,31 +285,65 @@ I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulatio
 I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.bin
 I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.df.xml
 I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.log
-I0002: SCADE UA DF Generator finished with 0 error(s) at 2018-10-09T11:59:18.
+I0002: SCADE UA DF Generator finished with 0 error(s) at 2018-10-10T00:50:24.
 
 Generating resource DF...
 "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\bin\rfgen.exe" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\line_stipple_table.sst
 Ressource/Styleset Binary File Generator Version 19.2 (build 20180628) (c) Esterel Technologies 2017-2018
-S0502: Sorry, license SCADEA661_DFGEN 6.6 is not available:
+reading file D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\line_stipple_table.sst
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\line_stipple_table.hexa
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\line_stipple_table.bin
+Completed
 
-License server machine is down or not responding.
- See the system administrator about starting the license server system, or
- make sure you're referring to the right host (see ESTERELD_LICENSE_FILE).
-Feature:       SCADEA661_DFGEN
-Hostname:      161.24.23.212
-License path:  29030@licencas.ita.br;
-FlexNet Licensing error:-96,491
-For further information, refer to the FlexNet Licensing documentation,
-available at "www.flexerasoftware.com".
+Generating resource DF...
+"C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\bin\rfgen.exe" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\line_width_table.swt
+Ressource/Styleset Binary File Generator Version 19.2 (build 20180628) (c) Esterel Technologies 2017-2018
+reading file D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\line_width_table.swt
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\line_width_table.hexa
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\line_width_table.bin
+Completed
 
-Troubleshooting tips for ANSYS-SCADE license protection:
-1) Have you sent the request.txt file to scade-support@ansys.com and got back the license keys?
-2) Have you set the ESTERELD_LICENSE_FILE environment variable as specified in the Installation Notes?
-3) Have you installed the FLEXnet License Server (optional on Windows laptop) as specified in the Installation Notes?
-4) Contact scade-support@ansys.com.
+Generating resource DF...
+"C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\bin\rfgen.exe" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\color_table.sct
+Ressource/Styleset Binary File Generator Version 19.2 (build 20180628) (c) Esterel Technologies 2017-2018
+reading file D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\color_table.sct
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\color_table.hexa
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\color_table.bin
+Completed
 
+Generating resource DF...
+"C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\bin\rfgen.exe" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\font_table.sft
+Ressource/Styleset Binary File Generator Version 19.2 (build 20180628) (c) Esterel Technologies 2017-2018
+I0001: SCADE Display CG Simu Version 19.2 (build 20180628) (c) Esterel Technologies SAS 2006-2018 started at 2018-10-10T00:50:53.
+I0005: Command line: "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\bin\..\..\SCADE Display\bin\ScadeDisplayCGSimu.exe" -outdir C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp -prefix rfgen_ D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\font_table.sft
+I0006: Generated file: C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table.h
+I0006: Generated file: C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table.c
+I0006: Generated file: C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table1.c
+I0006: Generated file: C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\ScadeDisplayCGSimu.log
+I0002: SCADE Display CG Simu finished with 0 error(s) at 2018-10-10T00:50:57.
+SCADE Display Cstruct to binary Convertor Version 19.2 (build 20180628) (c) Esterel Technologies SAS 2017-2018
+Reading C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\bin\..\..\Scade display\KCG67\oglx\include\glf.h
+Reading C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table.h
+Reading C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table.c
+Reading C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table1.c
+Writing C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table.bin
+Completed
+C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table.hexa
+        1 arquivo(s) movido(s).
+C:\Users\ricardo\AppData\Local\Temp\rfgen_tmp\rfgen_font_table.bin
+        1 arquivo(s) movido(s).
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\font_table.hexa
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\font_table.bin
+Completed
 
-============ END OF COMMAND: ERROR DURING GENERATION ============
+Generating Styleset DF...
+"C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\bin\rfgen.exe" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation -capacities "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\Stylesets\look_capacities.slc" D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\look_definition.sld
+Ressource/Styleset Binary File Generator Version 19.2 (build 20180628) (c) Esterel Technologies 2017-2018
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\look_definition.hexa
+Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\look_definition.bin
+Completed
+
+============= END OF COMMAND: GENERATION SUCCESSFUL =============
 
 Status: 0
 O sistema n∆o pode encontrar o arquivo especificado.

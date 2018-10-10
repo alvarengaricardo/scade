@@ -17,10 +17,10 @@ EXPORTS
     ExtendedSimStop @16
     GraphicalInputsConnected @17 DATA
     ImportedToString @18
-    LG_BTN_FAIL_TEXT @19 DATA
-    LG_BTN_NORM_TEXT @20 DATA
-    LG_DOWN_TEXT @21 DATA
-    LG_EMPTY_TEXT @22 DATA
+    LG_BTN_EMPTY_TEXT @19 DATA
+    LG_BTN_FAIL_TEXT @20 DATA
+    LG_BTN_NORM_TEXT @21 DATA
+    LG_DOWN_TEXT @22 DATA
     LG_UP_TEXT @23 DATA
     LandingGear @24
     LandingGear_UA_1_receive @25

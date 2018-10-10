@@ -40,7 +40,8 @@
     <Constant macroDef="true" scadeName="WHITE" scadeType="uint8" targetName="WHITE" targetType="kcg_uint8"/>
     <Constant macroDef="true" scadeName="AMBAR" scadeType="uint8" targetName="AMBAR" targetType="kcg_uint8"/>
     <Constant macroDef="true" scadeName="RED" scadeType="uint8" targetName="RED" targetType="kcg_uint8"/>
-    <Constant scadeName="LG_EMPTY_TEXT" scadeType="T_String" targetName="LG_EMPTY_TEXT" targetType="T_String"/>
+    <Constant scadeName="LG_BTN_EMPTY_TEXT" scadeType="T_String" targetName="LG_BTN_EMPTY_TEXT" targetType="T_String"/>
+    <Constant macroDef="true" scadeName="GREEN" scadeType="uint8" targetName="GREEN" targetType="kcg_uint8"/>
     <NamedType refType="T_String" scadeName="T_String" targetName="T_String"/>
     <RootNode headerFile="LandingGear.h" scadeName="LandingGear" targetCycleFct="LandingGear" targetInitFct="LandingGear_reset" targetInitializationFct="LandingGear_init">
       <Input inCtx="true" scadeName="LG_UpBtn" scadeType="bool" targetName="LG_UpBtn" targetType="kcg_bool"/>
@@ -122,9 +123,9 @@
             </Else>
             <Then>
               <Local clockVal="kcg_true" clockVar="IfBlock2_clock_DOWN_SM1" inCtx="true" scadeName="_L1" scadeType="T_String" targetName="_L1_then_IfBlock2_DOWN_SM1" targetType="T_String"/>
-              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_DOWN_SM1" inCtx="true" scadeName="_L2" scadeType="uint8" targetName="_L2_then_IfBlock2_DOWN_SM1" targetType="kcg_uint8"/>
               <Local clockVal="kcg_true" clockVar="IfBlock2_clock_DOWN_SM1" inCtx="true" scadeName="_L3" scadeType="uint8" targetName="_L3_then_IfBlock2_DOWN_SM1" targetType="kcg_uint8"/>
               <Local clockVal="kcg_true" clockVar="IfBlock2_clock_DOWN_SM1" inCtx="true" scadeName="_L4" scadeType="uint8" targetName="_L4_then_IfBlock2_DOWN_SM1" targetType="kcg_uint8"/>
+              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_DOWN_SM1" inCtx="true" scadeName="_L2" scadeType="uint8" targetName="_L2_then_IfBlock2_DOWN_SM1" targetType="kcg_uint8"/>
             </Then>
           </ActivateIf>
           <Fork priority="1">
@@ -159,13 +160,13 @@
               <Local clockVal="kcg_false" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L9" scadeType="uint8" targetName="_L9_else_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
               <Local clockVal="kcg_false" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L8" scadeType="uint8" targetName="_L8_else_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
               <Local clockVal="kcg_false" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L7" scadeType="uint8" targetName="_L7_else_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
-              <Local clockVal="kcg_false" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L6" scadeType="T_String" targetName="_L6_else_IfBlock2_TRANSITION_SM1" targetType="T_String"/>
+              <Local clockVal="kcg_false" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L10" scadeType="T_String" targetName="_L10_else_IfBlock2_TRANSITION_SM1" targetType="T_String"/>
             </Else>
             <Then>
-              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L1" scadeType="T_String" targetName="_L1_then_IfBlock2_TRANSITION_SM1" targetType="T_String"/>
-              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L2" scadeType="uint8" targetName="_L2_then_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
-              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L3" scadeType="uint8" targetName="_L3_then_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
               <Local clockVal="kcg_true" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L4" scadeType="uint8" targetName="_L4_then_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
+              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L5" scadeType="T_String" targetName="_L5_then_IfBlock2_TRANSITION_SM1" targetType="T_String"/>
+              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L6" scadeType="uint8" targetName="_L6_then_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
+              <Local clockVal="kcg_true" clockVar="IfBlock2_clock_TRANSITION_SM1" inCtx="true" scadeName="_L7" scadeType="uint8" targetName="_L7_then_IfBlock2_TRANSITION_SM1" targetType="kcg_uint8"/>
             </Then>
           </ActivateIf>
           <Fork priority="1">
@@ -182,10 +183,10 @@
           <ActivateIf scadeName="IfBlock2">
             <Condition inCtx="true" targetName="IfBlock2_clock_UP_SM1"/>
             <Else>
-              <Local clockVal="kcg_false" clockVar="IfBlock2_clock_UP_SM1" inCtx="true" scadeName="_L9" scadeType="uint8" targetName="_L9_else_IfBlock2_UP_SM1" targetType="kcg_uint8"/>
-              <Local clockVal="kcg_false" clockVar="IfBlock2_clock_UP_SM1" inCtx="true" scadeName="_L8" scadeType="uint8" targetName="_L8_else_IfBlock2_UP_SM1" targetType="kcg_uint8"/>
               <Local clockVal="kcg_false" clockVar="IfBlock2_clock_UP_SM1" inCtx="true" scadeName="_L7" scadeType="uint8" targetName="_L7_else_IfBlock2_UP_SM1" targetType="kcg_uint8"/>
               <Local clockVal="kcg_false" clockVar="IfBlock2_clock_UP_SM1" inCtx="true" scadeName="_L6" scadeType="T_String" targetName="_L6_else_IfBlock2_UP_SM1" targetType="T_String"/>
+              <Local clockVal="kcg_false" clockVar="IfBlock2_clock_UP_SM1" inCtx="true" scadeName="_L10" scadeType="uint8" targetName="_L10_else_IfBlock2_UP_SM1" targetType="kcg_uint8"/>
+              <Local clockVal="kcg_false" clockVar="IfBlock2_clock_UP_SM1" inCtx="true" scadeName="_L11" scadeType="uint8" targetName="_L11_else_IfBlock2_UP_SM1" targetType="kcg_uint8"/>
             </Else>
             <Then>
               <Local clockVal="kcg_true" clockVar="IfBlock2_clock_UP_SM1" inCtx="true" scadeName="_L1" scadeType="T_String" targetName="_L1_then_IfBlock2_UP_SM1" targetType="T_String"/>

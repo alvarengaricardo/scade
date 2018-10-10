@@ -234,29 +234,5 @@
 				<ed:Constant oid="!ed/49dd/118E/1784/5b9f0a8a8c9"/>
 			</pragmas>
 		</Constant>
-		<Constant name="LG_EMPTY_TEXT">
-			<type>
-				<NamedType>
-					<type>
-						<TypeRef name="T_String"/>
-					</type>
-				</NamedType>
-			</type>
-			<value>
-				<!-- [' ', ' ', ' ', ' ', ' '] -->
-				<DataArrayOp>
-					<data>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-						<ConstValue value="' '"/>
-					</data>
-				</DataArrayOp>
-			</value>
-			<pragmas>
-				<ed:Constant oid="!ed/6b0b/3BE7/1D48/5ba7cb6253c2"/>
-			</pragmas>
-		</Constant>
 	</declarations>
 </File>

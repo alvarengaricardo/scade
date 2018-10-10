@@ -1,6 +1,6 @@
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** Command: kcg66.exe -config D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/config.txt
-** Generation date: 2018-10-09T11:58:09
+** Generation date: 2018-10-10T00:49:39
 *************************************************************$ */
 #ifndef _LandingGear_H_
 #define _LandingGear_H_
@@ -73,9 +73,9 @@ typedef struct {
   kcg_uint8 /* SM1:DOWN:IfBlock2:else:_L7/ */ _L7_else_IfBlock2_DOWN_SM1;
   T_String /* SM1:DOWN:IfBlock2:else:_L6/ */ _L6_else_IfBlock2_DOWN_SM1;
   T_String /* SM1:DOWN:IfBlock2:then:_L1/ */ _L1_then_IfBlock2_DOWN_SM1;
-  kcg_uint8 /* SM1:DOWN:IfBlock2:then:_L2/ */ _L2_then_IfBlock2_DOWN_SM1;
   kcg_uint8 /* SM1:DOWN:IfBlock2:then:_L3/ */ _L3_then_IfBlock2_DOWN_SM1;
   kcg_uint8 /* SM1:DOWN:IfBlock2:then:_L4/ */ _L4_then_IfBlock2_DOWN_SM1;
+  kcg_uint8 /* SM1:DOWN:IfBlock2:then:_L2/ */ _L2_then_IfBlock2_DOWN_SM1;
   kcg_int32 /* SM1:TRANSITION:_L7/ */ _L7_TRANSITION_SM1;
   kcg_int32 /* SM1:TRANSITION:_L6/ */ _L6_TRANSITION_SM1;
   kcg_int32 /* SM1:TRANSITION:_L5/ */ _L5_TRANSITION_SM1;
@@ -87,16 +87,16 @@ typedef struct {
   kcg_uint8 /* SM1:TRANSITION:IfBlock2:else:_L9/ */ _L9_else_IfBlock2_TRANSITION_SM1;
   kcg_uint8 /* SM1:TRANSITION:IfBlock2:else:_L8/ */ _L8_else_IfBlock2_TRANSITION_SM1;
   kcg_uint8 /* SM1:TRANSITION:IfBlock2:else:_L7/ */ _L7_else_IfBlock2_TRANSITION_SM1;
-  T_String /* SM1:TRANSITION:IfBlock2:else:_L6/ */ _L6_else_IfBlock2_TRANSITION_SM1;
-  T_String /* SM1:TRANSITION:IfBlock2:then:_L1/ */ _L1_then_IfBlock2_TRANSITION_SM1;
-  kcg_uint8 /* SM1:TRANSITION:IfBlock2:then:_L2/ */ _L2_then_IfBlock2_TRANSITION_SM1;
-  kcg_uint8 /* SM1:TRANSITION:IfBlock2:then:_L3/ */ _L3_then_IfBlock2_TRANSITION_SM1;
+  T_String /* SM1:TRANSITION:IfBlock2:else:_L10/ */ _L10_else_IfBlock2_TRANSITION_SM1;
   kcg_uint8 /* SM1:TRANSITION:IfBlock2:then:_L4/ */ _L4_then_IfBlock2_TRANSITION_SM1;
+  T_String /* SM1:TRANSITION:IfBlock2:then:_L5/ */ _L5_then_IfBlock2_TRANSITION_SM1;
+  kcg_uint8 /* SM1:TRANSITION:IfBlock2:then:_L6/ */ _L6_then_IfBlock2_TRANSITION_SM1;
+  kcg_uint8 /* SM1:TRANSITION:IfBlock2:then:_L7/ */ _L7_then_IfBlock2_TRANSITION_SM1;
   kcg_bool /* SM1:UP:_L1/ */ _L1_UP_SM1;
-  kcg_uint8 /* SM1:UP:IfBlock2:else:_L9/ */ _L9_else_IfBlock2_UP_SM1;
-  kcg_uint8 /* SM1:UP:IfBlock2:else:_L8/ */ _L8_else_IfBlock2_UP_SM1;
   kcg_uint8 /* SM1:UP:IfBlock2:else:_L7/ */ _L7_else_IfBlock2_UP_SM1;
   T_String /* SM1:UP:IfBlock2:else:_L6/ */ _L6_else_IfBlock2_UP_SM1;
+  kcg_uint8 /* SM1:UP:IfBlock2:else:_L10/ */ _L10_else_IfBlock2_UP_SM1;
+  kcg_uint8 /* SM1:UP:IfBlock2:else:_L11/ */ _L11_else_IfBlock2_UP_SM1;
   T_String /* SM1:UP:IfBlock2:then:_L1/ */ _L1_then_IfBlock2_UP_SM1;
   kcg_uint8 /* SM1:UP:IfBlock2:then:_L2/ */ _L2_then_IfBlock2_UP_SM1;
   kcg_uint8 /* SM1:UP:IfBlock2:then:_L3/ */ _L3_then_IfBlock2_UP_SM1;
@@ -144,6 +144,6 @@ extern void LandingGear_init(outC_LandingGear *outC);
 #endif /* _LandingGear_H_ */
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** LandingGear.h
-** Generation date: 2018-10-09T11:58:09
+** Generation date: 2018-10-10T00:49:39
 *************************************************************$ */
 

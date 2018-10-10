@@ -1,6 +1,6 @@
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** Command: kcg66.exe -config D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/config.txt
-** Generation date: 2018-10-09T11:58:09
+** Generation date: 2018-10-10T00:49:39
 *************************************************************$ */
 
 #include "kcg_types.h"
@@ -21,6 +21,6 @@ kcg_bool kcg_comp_T_String(T_String *kcg_c1, T_String *kcg_c2)
 
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** kcg_types.c
-** Generation date: 2018-10-09T11:58:09
+** Generation date: 2018-10-10T00:49:39
 *************************************************************$ */
 

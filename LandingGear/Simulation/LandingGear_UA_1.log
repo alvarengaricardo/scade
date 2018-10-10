@@ -1,4 +1,4 @@
-I0001: SCADE UA DF Generator Version 6.7 (build i2) (c) Esterel Technologies SAS 2011-2016 started at 2018-10-09T11:58:58.
+I0001: SCADE UA DF Generator Version 6.7 (build i2) (c) Esterel Technologies SAS 2011-2016 started at 2018-10-10T00:50:17.
 I0005: Command line: "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE A661\DFGEN67\bin\dfgen.exe" -n "C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml" -outdir D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation -o LandingGear_UA_1 D:\gd\ITA\CE-235\scade\landing_gear\landing_gear\LG.sgfx
 I0007: Input file: C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\a661.xml
 I0007: Input file: C:\Program Files\ANSYS Inc\v192\SCADE\SCADE Display\config\a661_description\const.xml
@@ -128,4 +128,4 @@ I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulatio
 I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.bin
 I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.df.xml
 I0006: Generated file: D:\gd\ITA\CE-235\scade\landing_gear\LandingGear\Simulation\LandingGear_UA_1.log
-I0002: SCADE UA DF Generator finished with 0 error(s) at 2018-10-09T11:59:18.
+I0002: SCADE UA DF Generator finished with 0 error(s) at 2018-10-10T00:50:24.

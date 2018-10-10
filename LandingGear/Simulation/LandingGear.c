@@ -1,6 +1,6 @@
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** Command: kcg66.exe -config D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/config.txt
-** Generation date: 2018-10-09T11:58:09
+** Generation date: 2018-10-10T00:49:39
 *************************************************************$ */
 
 #include "kcg_consts.h"
@@ -447,24 +447,24 @@ void LandingGear(inC_LandingGear *inC, outC_LandingGear *outC)
         kcg_copy_T_String(&_87_RightTextString_partial, &_105_RightTextString_partial);
       }
       else {
-        outC->_L8_else_IfBlock2_UP_SM1 = AMBAR;
-        _101_NoseSquareFillColor_partial = outC->_L8_else_IfBlock2_UP_SM1;
+        outC->_L11_else_IfBlock2_UP_SM1 = GREEN;
+        outC->_L10_else_IfBlock2_UP_SM1 = GREEN;
+        _101_NoseSquareFillColor_partial = outC->_L10_else_IfBlock2_UP_SM1;
         kcg_copy_T_String(&outC->_L6_else_IfBlock2_UP_SM1, (T_String *) &LG_UP_TEXT);
         kcg_copy_T_String(
           &_93_RightTextString_partial,
           &outC->_L6_else_IfBlock2_UP_SM1);
-        outC->_L9_else_IfBlock2_UP_SM1 = AMBAR;
-        _104_NoseSquareBorderColor_partial = outC->_L9_else_IfBlock2_UP_SM1;
-        _99_RightSquareFillColor_partial = outC->_L8_else_IfBlock2_UP_SM1;
+        _104_NoseSquareBorderColor_partial = outC->_L11_else_IfBlock2_UP_SM1;
+        _99_RightSquareFillColor_partial = outC->_L10_else_IfBlock2_UP_SM1;
         kcg_copy_T_String(&_95_NoseTextString_partial, &outC->_L6_else_IfBlock2_UP_SM1);
         outC->_L7_else_IfBlock2_UP_SM1 = WHITE;
         _96_RightTextColorIndex_partial = outC->_L7_else_IfBlock2_UP_SM1;
         _98_NoseTextColorIndex_partial = outC->_L7_else_IfBlock2_UP_SM1;
-        _103_LeftSquareBorderColor_partial = outC->_L9_else_IfBlock2_UP_SM1;
-        _102_RightSquareBorderColor_partial = outC->_L9_else_IfBlock2_UP_SM1;
+        _103_LeftSquareBorderColor_partial = outC->_L11_else_IfBlock2_UP_SM1;
+        _102_RightSquareBorderColor_partial = outC->_L11_else_IfBlock2_UP_SM1;
         kcg_copy_T_String(&_94_LeftTextString_partial, &outC->_L6_else_IfBlock2_UP_SM1);
         _97_LeftTextColorIndex_partial = outC->_L7_else_IfBlock2_UP_SM1;
-        _100_LeftSquareFillColor_partial = outC->_L8_else_IfBlock2_UP_SM1;
+        _100_LeftSquareFillColor_partial = outC->_L10_else_IfBlock2_UP_SM1;
         _76_NoseSquareBorderColor_partial = _104_NoseSquareBorderColor_partial;
         _77_LeftSquareBorderColor_partial = _103_LeftSquareBorderColor_partial;
         _78_RightSquareBorderColor_partial = _102_RightSquareBorderColor_partial;
@@ -614,30 +614,30 @@ void LandingGear(inC_LandingGear *inC, outC_LandingGear *outC)
       outC->IfBlock2_clock_TRANSITION_SM1 = outC->LG_Fail;
       /* SM1:TRANSITION:IfBlock2: */
       if (outC->IfBlock2_clock_TRANSITION_SM1) {
+        outC->_L7_then_IfBlock2_TRANSITION_SM1 = AMBAR;
+        outC->_L6_then_IfBlock2_TRANSITION_SM1 = AMBAR;
+        kcg_copy_T_String(
+          &outC->_L5_then_IfBlock2_TRANSITION_SM1,
+          (T_String *) &LG_BTN_EMPTY_TEXT);
         outC->_L4_then_IfBlock2_TRANSITION_SM1 = WHITE;
         _61_RightTextColorIndex_partial = outC->_L4_then_IfBlock2_TRANSITION_SM1;
         _62_LeftTextColorIndex_partial = outC->_L4_then_IfBlock2_TRANSITION_SM1;
         _63_NoseTextColorIndex_partial = outC->_L4_then_IfBlock2_TRANSITION_SM1;
-        outC->_L2_then_IfBlock2_TRANSITION_SM1 = RED;
-        _67_RightSquareBorderColor_partial = outC->_L2_then_IfBlock2_TRANSITION_SM1;
-        _68_LeftSquareBorderColor_partial = outC->_L2_then_IfBlock2_TRANSITION_SM1;
-        _69_NoseSquareBorderColor_partial = outC->_L2_then_IfBlock2_TRANSITION_SM1;
-        outC->_L3_then_IfBlock2_TRANSITION_SM1 = RED;
-        _64_RightSquareFillColor_partial = outC->_L3_then_IfBlock2_TRANSITION_SM1;
-        _65_LeftSquareFillColor_partial = outC->_L3_then_IfBlock2_TRANSITION_SM1;
-        _66_NoseSquareFillColor_partial = outC->_L3_then_IfBlock2_TRANSITION_SM1;
-        kcg_copy_T_String(
-          &outC->_L1_then_IfBlock2_TRANSITION_SM1,
-          (T_String *) &LG_EMPTY_TEXT);
+        _67_RightSquareBorderColor_partial = outC->_L7_then_IfBlock2_TRANSITION_SM1;
+        _68_LeftSquareBorderColor_partial = outC->_L7_then_IfBlock2_TRANSITION_SM1;
+        _69_NoseSquareBorderColor_partial = outC->_L7_then_IfBlock2_TRANSITION_SM1;
+        _64_RightSquareFillColor_partial = outC->_L6_then_IfBlock2_TRANSITION_SM1;
+        _65_LeftSquareFillColor_partial = outC->_L6_then_IfBlock2_TRANSITION_SM1;
+        _66_NoseSquareFillColor_partial = outC->_L6_then_IfBlock2_TRANSITION_SM1;
         kcg_copy_T_String(
           &_58_RightTextString_partial,
-          &outC->_L1_then_IfBlock2_TRANSITION_SM1);
+          &outC->_L5_then_IfBlock2_TRANSITION_SM1);
         kcg_copy_T_String(
           &_59_LeftTextString_partial,
-          &outC->_L1_then_IfBlock2_TRANSITION_SM1);
+          &outC->_L5_then_IfBlock2_TRANSITION_SM1);
         kcg_copy_T_String(
           &_60_NoseTextString_partial,
-          &outC->_L1_then_IfBlock2_TRANSITION_SM1);
+          &outC->_L5_then_IfBlock2_TRANSITION_SM1);
         _25_NoseSquareBorderColor_partial = _69_NoseSquareBorderColor_partial;
         _26_LeftSquareBorderColor_partial = _68_LeftSquareBorderColor_partial;
         _27_RightSquareBorderColor_partial = _67_RightSquareBorderColor_partial;
@@ -652,20 +652,20 @@ void LandingGear(inC_LandingGear *inC, outC_LandingGear *outC)
         kcg_copy_T_String(&_36_RightTextString_partial, &_58_RightTextString_partial);
       }
       else {
+        kcg_copy_T_String(
+          &outC->_L10_else_IfBlock2_TRANSITION_SM1,
+          (T_String *) &LG_BTN_EMPTY_TEXT);
         outC->_L8_else_IfBlock2_TRANSITION_SM1 = AMBAR;
         _54_NoseSquareFillColor_partial = outC->_L8_else_IfBlock2_TRANSITION_SM1;
         kcg_copy_T_String(
-          &outC->_L6_else_IfBlock2_TRANSITION_SM1,
-          (T_String *) &LG_EMPTY_TEXT);
-        kcg_copy_T_String(
           &_46_RightTextString_partial,
-          &outC->_L6_else_IfBlock2_TRANSITION_SM1);
+          &outC->_L10_else_IfBlock2_TRANSITION_SM1);
         outC->_L9_else_IfBlock2_TRANSITION_SM1 = AMBAR;
         _57_NoseSquareBorderColor_partial = outC->_L9_else_IfBlock2_TRANSITION_SM1;
         _52_RightSquareFillColor_partial = outC->_L8_else_IfBlock2_TRANSITION_SM1;
         kcg_copy_T_String(
           &_48_NoseTextString_partial,
-          &outC->_L6_else_IfBlock2_TRANSITION_SM1);
+          &outC->_L10_else_IfBlock2_TRANSITION_SM1);
         outC->_L7_else_IfBlock2_TRANSITION_SM1 = WHITE;
         _49_RightTextColorIndex_partial = outC->_L7_else_IfBlock2_TRANSITION_SM1;
         _51_NoseTextColorIndex_partial = outC->_L7_else_IfBlock2_TRANSITION_SM1;
@@ -673,7 +673,7 @@ void LandingGear(inC_LandingGear *inC, outC_LandingGear *outC)
         _55_RightSquareBorderColor_partial = outC->_L9_else_IfBlock2_TRANSITION_SM1;
         kcg_copy_T_String(
           &_47_LeftTextString_partial,
-          &outC->_L6_else_IfBlock2_TRANSITION_SM1);
+          &outC->_L10_else_IfBlock2_TRANSITION_SM1);
         _50_LeftTextColorIndex_partial = outC->_L7_else_IfBlock2_TRANSITION_SM1;
         _53_LeftSquareFillColor_partial = outC->_L8_else_IfBlock2_TRANSITION_SM1;
         _25_NoseSquareBorderColor_partial = _57_NoseSquareBorderColor_partial;
@@ -712,11 +712,11 @@ void LandingGear(inC_LandingGear *inC, outC_LandingGear *outC)
       outC->IfBlock2_clock_DOWN_SM1 = outC->LG_Fail;
       /* SM1:DOWN:IfBlock2: */
       if (outC->IfBlock2_clock_DOWN_SM1) {
+        outC->_L2_then_IfBlock2_DOWN_SM1 = RED;
         outC->_L4_then_IfBlock2_DOWN_SM1 = WHITE;
         _16_RightTextColorIndex_partial = outC->_L4_then_IfBlock2_DOWN_SM1;
         _17_LeftTextColorIndex_partial = outC->_L4_then_IfBlock2_DOWN_SM1;
         _18_NoseTextColorIndex_partial = outC->_L4_then_IfBlock2_DOWN_SM1;
-        outC->_L2_then_IfBlock2_DOWN_SM1 = RED;
         _22_RightSquareBorderColor_partial = outC->_L2_then_IfBlock2_DOWN_SM1;
         _23_LeftSquareBorderColor_partial = outC->_L2_then_IfBlock2_DOWN_SM1;
         _24_NoseSquareBorderColor_partial = outC->_L2_then_IfBlock2_DOWN_SM1;
@@ -934,22 +934,22 @@ void LandingGear_init(outC_LandingGear *outC)
   for (idx6 = 0; idx6 < 5; idx6++) {
     outC->_L1_then_IfBlock2_UP_SM1[idx6] = ' ';
   }
+  outC->_L11_else_IfBlock2_UP_SM1 = kcg_lit_uint8(0);
+  outC->_L10_else_IfBlock2_UP_SM1 = kcg_lit_uint8(0);
   for (idx7 = 0; idx7 < 5; idx7++) {
     outC->_L6_else_IfBlock2_UP_SM1[idx7] = ' ';
   }
   outC->_L7_else_IfBlock2_UP_SM1 = kcg_lit_uint8(0);
-  outC->_L8_else_IfBlock2_UP_SM1 = kcg_lit_uint8(0);
-  outC->_L9_else_IfBlock2_UP_SM1 = kcg_lit_uint8(0);
   outC->IfBlock2_clock_UP_SM1 = kcg_true;
   outC->_L1_UP_SM1 = kcg_true;
-  outC->_L4_then_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
-  outC->_L3_then_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
-  outC->_L2_then_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
+  outC->_L7_then_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
+  outC->_L6_then_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
   for (idx8 = 0; idx8 < 5; idx8++) {
-    outC->_L1_then_IfBlock2_TRANSITION_SM1[idx8] = ' ';
+    outC->_L5_then_IfBlock2_TRANSITION_SM1[idx8] = ' ';
   }
+  outC->_L4_then_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
   for (idx9 = 0; idx9 < 5; idx9++) {
-    outC->_L6_else_IfBlock2_TRANSITION_SM1[idx9] = ' ';
+    outC->_L10_else_IfBlock2_TRANSITION_SM1[idx9] = ' ';
   }
   outC->_L7_else_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
   outC->_L8_else_IfBlock2_TRANSITION_SM1 = kcg_lit_uint8(0);
@@ -965,9 +965,9 @@ void LandingGear_init(outC_LandingGear *outC)
   outC->_L5_TRANSITION_SM1 = kcg_lit_int32(0);
   outC->_L6_TRANSITION_SM1 = kcg_lit_int32(0);
   outC->_L7_TRANSITION_SM1 = kcg_lit_int32(0);
+  outC->_L2_then_IfBlock2_DOWN_SM1 = kcg_lit_uint8(0);
   outC->_L4_then_IfBlock2_DOWN_SM1 = kcg_lit_uint8(0);
   outC->_L3_then_IfBlock2_DOWN_SM1 = kcg_lit_uint8(0);
-  outC->_L2_then_IfBlock2_DOWN_SM1 = kcg_lit_uint8(0);
   for (idx10 = 0; idx10 < 5; idx10++) {
     outC->_L1_then_IfBlock2_DOWN_SM1[idx10] = ' ';
   }
@@ -1049,6 +1049,6 @@ void LandingGear_reset(outC_LandingGear *outC)
 
 /* $********** SCADE Suite KCG 32-bit 6.6 (build i19) ***********
 ** LandingGear.c
-** Generation date: 2018-10-09T11:58:09
+** Generation date: 2018-10-10T00:49:39
 *************************************************************$ */
 
