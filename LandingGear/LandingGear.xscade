@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/5" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Constant name="STR_SIZE">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint16"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="5"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49ba/118E/1784/5b9f09d71d60"/>
+			</pragmas>
+		</Constant>
+		<Type name="T_String">
+			<definition>
+				<Table>
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="char"/>
+							</type>
+						</NamedType>
+					</type>
+					<size>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="STR_SIZE"/>
+							</path>
+						</IdExpression>
+					</size>
+				</Table>
+			</definition>
+			<pragmas>
+				<ed:Type oid="!ed/49cb/118E/1784/5b9f0a0ed38"/>
+			</pragmas>
+		</Type>
+		<Constant name="WHITE">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="1"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49d4/118E/1784/5b9f0a66355c"/>
+			</pragmas>
+		</Constant>
+		<Constant name="RED">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="21"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49d5/118E/1784/5b9f0a6b7a9e"/>
+			</pragmas>
+		</Constant>
+		<Constant name="AMBAR">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="31"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49d6/118E/1784/5b9f0a6e4dda"/>
+			</pragmas>
+		</Constant>
+		<Constant name="BLACK">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="0"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49d7/118E/1784/5b9f0a701a4f"/>
+			</pragmas>
+		</Constant>
+		<Constant name="GREEN">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="uint8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="51"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49d8/118E/1784/5b9f0a7c14e3"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_BTN_EMPTY_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- [' ', ' ', ' ', ' ', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49d9/118E/1784/5b9f0a7f2dfe"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_BTN_FAIL_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- ['F', 'A', 'I', 'L', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'F'"/>
+						<ConstValue value="'A'"/>
+						<ConstValue value="'I'"/>
+						<ConstValue value="'L'"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49da/118E/1784/5b9f0a82e13"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_BTN_NORM_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- ['N', 'O', 'R', 'M', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'N'"/>
+						<ConstValue value="'O'"/>
+						<ConstValue value="'R'"/>
+						<ConstValue value="'M'"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49db/118E/1784/5b9f0a8459d4"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_DOWN_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- ['D', 'N', ' ', ' ', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'D'"/>
+						<ConstValue value="'N'"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49dc/118E/1784/5b9f0a872804"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_UP_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- ['U', 'P', ' ', ' ', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="'U'"/>
+						<ConstValue value="'P'"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/49dd/118E/1784/5b9f0a8a8c9"/>
+			</pragmas>
+		</Constant>
+		<Constant name="LG_EMPTY_TEXT">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="T_String"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<!-- [' ', ' ', ' ', ' ', ' '] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+						<ConstValue value="' '"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/6b0b/3BE7/1D48/5ba7cb6253c2"/>
+			</pragmas>
+		</Constant>
+	</declarations>
+</File>

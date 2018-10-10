@@ -1,0 +1,68 @@
+[scade_version: 19.2]
+[scade_project: D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.etp]
+[Code Generator]
+4ca2fcb10650d001b0cc0dfc23a2c9d0 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/scade_model_without_unused.scade
+be4df3338c61a62eb6d407d9f2cf6b36 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear.c
+2ff8b934f6d80dbdfb984dc2f25f3b4e D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear.h
+7d4bfd486454c9701d77eeda708027b2 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/cmd_cg.log
+e65a9ee6e61a15062e0f7d2f2bab78ad D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/config.txt
+1382a7f773a211bb2aff1d8175f8bc77 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_consts.c
+26afb8056985cabea40edcb12640a1b8 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_consts.h
+656a4d3bc7af0e7a3f1f0b5e92bfe04c D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_files.txt
+c570e85441febaa6f6d5e23e14e58b55 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_imported_types.h
+8cf21f6a78ed3f2336520825bd3696c1 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_metrics.txt
+46f879deacf8dfc54f60e626dc939533 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_sensors.h
+e98ab9efee7058711f172cad2858a140 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_types.c
+4c6fdac66527f1ac9d5779fbe732d0e8 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/kcg_types.h
+a7995d6b18b86ba60d0d07096150be88 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/mapping.xml
+ae3eb7ab76cdc5ab7228e39b505e73d6 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/user_macros.h
+[Macro Wrapper]
+aa7b84eaa2166824f1fad65cee9f0d73 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.etp
+251ae1ae0b33a8f5b3e105cec39f801a D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_macro.h
+[Mapping Utils]
+a7995d6b18b86ba60d0d07096150be88 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/mapping.xml
+4fbfaa7e004c816a11e60ba2155f6a15 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuConfig.c
+63ca1258f2bc557f4914a90547c1afad C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuLib.c
+97846ecf46f63ce7853bb421d7471f4a C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuTypes.c
+fdc236851fcc107ead222892aa7071b4 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuVTable.c
+aa7b84eaa2166824f1fad65cee9f0d73 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.etp
+05b6ba2fd8a21fcde69b10b8a744d312 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_mapping.c
+65f2ba2f10d664c497c83197fdc08689 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_mapping.h
+[SCADE Display Co-simulation/LandingGear_UA_1]
+6615875dac91974dd04e58d3da4af332 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE Display/config/Stylesets/look_capacities.slc
+bba8c9002fe5ab63dd33d215c67aad5f C:/Program Files/ANSYS Inc/v192/SCADE/SCADE Display/config/a661_description/Tables/linestylesTable.xml
+788f0892e8de6e6ca9039e4a44bdd6b4 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE Display/config/a661_description/Tables/picturesTable.xml
+0d1882ee40186856cdfe011676d28d35 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE Display/config/a661_description/Tables/symbolsTable.xml
+8e5c060abefb8b919bb78c35e53613d9 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE Display/config/a661_description/a661.xml
+ac2fe981e99a63c76766e45157331323 D:/gd/ITA/CE-235/scade/landing_gear/landing_gear/LG.sgfx
+53e34c08fe9b715903cfe0106469049e D:/gd/ITA/CE-235/scade/landing_gear/landing_gear/color_table.sct
+3b90961a1823fd895c908278a6b90d7f D:/gd/ITA/CE-235/scade/landing_gear/landing_gear/font_table.sft
+262bbf0d049c5cd86b7d8a1508ea66d1 D:/gd/ITA/CE-235/scade/landing_gear/landing_gear/line_stipple_table.sst
+3945084d07df90452479947ad336617b D:/gd/ITA/CE-235/scade/landing_gear/landing_gear/line_width_table.swt
+676cfb46ffdc6074e28783d4bc9f4797 D:/gd/ITA/CE-235/scade/landing_gear/landing_gear/look_definition.sld
+b6f3ab29516b93293bc677589e90817d D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.sdy
+17dd8463805929b142db41d102aa1d8f D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_UA_1.bat
+03c451c4ac862b4e2032e1ef6ada953b D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_UA_1.c
+37d615a08e63e1240244a12730052fb0 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_UA_1_LAY_1.c
+b2dab1f7c780586dd27fa2a636bd450a D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_UA_1_private.c
+[SCADE Display Co-simulation/standalone]
+1e2f11ca6a1b6a49e12da56a69e790d0 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/A661Cosim.c
+b6f3ab29516b93293bc677589e90817d D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.sdy
+17dd8463805929b142db41d102aa1d8f D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_UA_1.bat
+f6c753b7cfb8ad02b946e7a138df8efd D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_cosim.c
+[Simulator Wrapper]
+a7995d6b18b86ba60d0d07096150be88 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/mapping.xml
+aa7b84eaa2166824f1fad65cee9f0d73 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.etp
+bc5602f1cccc35945e080e7e22e2cb13 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_dll.c
+95e268bbd69b42a21e8a99312b9e1169 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_interface.c
+e4ec04cac8efff9d35de679e0331e0bc D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_interface.h
+[Type Utils]
+a7995d6b18b86ba60d0d07096150be88 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/mapping.xml
+4fbfaa7e004c816a11e60ba2155f6a15 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuConfig.c
+63ca1258f2bc557f4914a90547c1afad C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuLib.c
+2ff4b49fd444307fbe2ac67a8132b9ae C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuPredefConv.c
+97846ecf46f63ce7853bb421d7471f4a C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuTypes.c
+fdc236851fcc107ead222892aa7071b4 C:/Program Files/ANSYS Inc/v192/SCADE/SCADE/lib/C/SmuVTable.c
+aa7b84eaa2166824f1fad65cee9f0d73 D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.etp
+696b8c9cac9194f4f43bf93bd836d06d D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_type.c
+8a32c1945f7b5aed15509c9fc48688df D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/Simulation/LandingGear_type.h

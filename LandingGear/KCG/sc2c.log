@@ -1,0 +1,38 @@
+$**************  SCADETOC Version 19.2 (build 20180628) **************
+** Generation date: 2018-10-08T22:10:41
+** Command: scade -code "D:\gd\ITA\CE-235\zzz\kz\LandingGear\LandingGear.etp" -root LandingGear -conf KCG
+*************************************************************$
+*** Generated Files Information (GENFIL): KCG- Generated files
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\mapping.xml, line 0, character 0
+ ~mapping.xml
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\kcg_metrics.txt, line 0, character 0
+ ~kcg_metrics.txt
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\LandingGear.c, line 0, character 0
+ ~LandingGear.c
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\LandingGear.h, line 0, character 0
+ ~LandingGear.h
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\kcg_types.h, line 0, character 0
+ ~kcg_types.h
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\kcg_consts.h, line 0, character 0
+ ~kcg_consts.h
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\kcg_sensors.h, line 0, character 0
+ ~kcg_sensors.h
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\kcg_types.c, line 0, character 0
+ ~kcg_types.c
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\kcg_consts.c, line 0, character 0
+ ~kcg_consts.c
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\config.txt, line 0, character 0
+ ~config.txt
+*** Generated Files Information (GENFIL): Code Generator Generated files
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\user_macros.h, line 0, character 0
+ ~user_macros.h
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\kcg_imported_types.h, line 0, character 0
+ ~kcg_imported_types.h
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\sc2c.log, line 0, character 0
+ ~sc2c.log
+  at file D:\gd\ITA\CE-235\zzz\kz\LandingGear\KCG\sc2c_integration_files.txt, line 0, character 0
+ ~sc2c_integration_files.txt
+$**************  SCADETOC Version 19.2 (build 20180628) **************
+** Generation date: 2018-10-08T22:10:55
+** sc2c.log
+*************************************************************$

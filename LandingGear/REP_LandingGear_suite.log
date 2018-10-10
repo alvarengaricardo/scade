@@ -1,0 +1,36 @@
+SCADE Lifecycle (R) Reporter for SCADE Suite Version 19.0 (build i18)
+
+SCADE Suite project: D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.etp
+SCADE Suite configuration: Cert. Reporter
+
+Reporter Properties:
+- Authors: Ricardo Ribeiro de Alvarenga
+- Classification: <document classification>
+- CompanyInfo: ITA (CE-235)
+- CorporateLogo: 
+- Date: 05/10/2018
+- Description: Projeto de Landing Gear para matéria CE-235
+- diagDisplayType: Normal
+- DisplayCtx: 0
+- DisplayReqDescr: 1
+- Distribution: <distribution list>
+- Footer: {} {<Corporate Info>} {}
+- Header: {$(ReferenceNr)
+$(CreatedDate)} {$(IssueNr)} {$(PageNumbering)}
+- Image: 
+- Index: Listex 01
+- IssueNr: <issue number>
+- LibrariesList: 
+- Reference: CE-235
+- ReferenceNr: <reference number>
+- ReportListOfFigures: 1
+- ReportListOfTables: 1
+- SCADEDisplayReport: Connection tables
+- SCADEDisplayReportConf: 
+- Subtitle: Landing Gear
+- Summary: <summary>
+- Title: ListEx 01 
+
+SCADE Suite report generated in: D:/gd/ITA/CE-235/scade/landing_gear/LandingGear/LandingGear.rtf
+
+Program successfully ended - Check messages above for possible warnings.

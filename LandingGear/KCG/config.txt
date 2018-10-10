@@ -1,0 +1,3 @@
+-target_dir "D:/gd/ITA/CE-235/zzz/kz/LandingGear/KCG" -expall -target C -name_length 200 -significance_length 31 -user_config "./user_macros.h" -input_threshold 2 
+-root LandingGear
+"D:/gd/ITA/CE-235/zzz/kz/LandingGear/KCG/scade_model_without_unused.scade"

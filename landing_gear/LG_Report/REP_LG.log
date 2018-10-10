@@ -1,0 +1,46 @@
+
+SCADE project: C:\Users\Scade\landing_gear\landing_gear.etp
+SCADE Display specification: LG.sgfx
+
+Project Properties:
+- @SDY:DEFAULTCOLORTABLE: color_table.sct
+- @SDY:DEFAULTLSTABLE: line_stipple_table.sst
+- @SDY:DEFAULTLWTABLE: line_width_table.swt
+- @SDY:FONTTABLE: font_table.sft
+- @UAPC:CHARSETENCODING: Ascii
+- @UAPC:CONFFILE: a661.xml
+- @UAPC:DFPICTURETABLE: 
+- @UAPC:DFSYMBOLTABLE: 
+- @UAPC:STYLESETCAPACITIES: look_capacities.slc
+- @UAPC:STYLESETDEFINITION: look_definition.sld
+
+Reporter Properties:
+- @SDYREP:AUTHORS: Kauê Gustavo Zanetti
+- @SDYREP:CLASSIFICATION: <document classification>
+- @SDYREP:COMPANYINFO: Instituto Tecnicologico de Aeronautica
+- @SDYREP:CONFSOURCE: C:\Users\Scade\landing_gear\LG.sgfx
+- @SDYREP:DATE: 23/08/2018
+- @SDYREP:DESCRIPTION: CF/CDS de controle de Trem de Pouso
+- @SDYREP:DISTLIST: <distribution list>
+- @SDYREP:FOOTERCENTER: <Corporate Info>
+- @SDYREP:FOOTERLEFT: 
+- @SDYREP:FOOTERRIGHT: 
+- @SDYREP:FORMAT: HTML
+- @SDYREP:HEADERCENTER: $(IssueNr)
+- @SDYREP:HEADERLEFT: $(ReferenceNr)
+$(CreatedDate)
+- @SDYREP:HEADERRIGHT: $(PageNumbering)
+- @SDYREP:IMAGEPATH: C:\Users\Scade\landing_gear
+- @SDYREP:INDEX: <index>
+- @SDYREP:ISSUE: <issue number>
+- @SDYREP:LOGOPATH: C:\Users\Scade\landing_gear
+- @SDYREP:OUTPUT: %ModelName%_Report
+- @SDYREP:REFERENCE: Warm up Arinc 661, Scade for Dummies
+- @SDYREP:REFERENCENB: <reference number>
+- @SDYREP:RESOURCES: $(CONFIG)/default
+- @SDYREP:SCREENSHOTS: true
+- @SDYREP:SUBTITLE: Front End - Definition File
+- @SDYREP:SUMMARY: <summary>
+- @SDYREP:SYMBOLS: false
+- @SDYREP:TITLE: Controle de Trem de Pouso
+- @SDYREP:WIDGETSETS: false
